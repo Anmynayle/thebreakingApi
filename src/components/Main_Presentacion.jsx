@@ -32,6 +32,7 @@ const Main_Presentacion = () => {
         
         <div className='contenedor__card'>
           {breakin.map(per => (
+            
             <div className="card">
               <img src={`${per.img}`} alt="" />
               <div className="card__info hidden">
@@ -44,13 +45,11 @@ const Main_Presentacion = () => {
                   <li><span>Nikname:  </span>{per?.nickname}</li>
                 </ul>
               </div>
-
-            </div>
-                    
+            </div>      
           ))
           }
         </div>
-        <div className='imgfixed'></div>
+        
       </section>
       
     )
