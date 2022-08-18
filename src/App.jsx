@@ -10,7 +10,7 @@ function App() {
   const [pagina, setPagina] = useState(1)
   const [porPagina, setPorPagina] = useState(6)
 
-  const maximo = Match.ceil(location)
+  const maximo = Math.ceil(location)
   return (
     <div className="App">
       <Main_Presentacion />
